@@ -19,7 +19,7 @@ body{
 }
 
 .html {
-  font-size: 62.5%;
+ 
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
@@ -68,6 +68,80 @@ body {
 .btn-primary:hover {
   background: #117964;
   transition: background 0.3s ease-in-out;
+}
+/* nav dark mode */
+nav > #dark-mode-switch {
+  display: flex;
+  margin-left: auto;
+  margin-right: 2px;
+}
+
+nav > #dark-mode-switch > p {
+  margin-right: 8px;
+}
+/* tutup darkmode */
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 22px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0  ;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(14px);
+  -ms-transform: translateX(14px);
+  transform: translateX(14px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 90%;
 }
 
 /* ............/navbar/............ *
@@ -156,6 +230,7 @@ body {
 .main-title {
   text-transform: uppercase;
   margin-top: 1.5em;
+  text-shadow: 2px 2px #FF0000;
 }
 
 
@@ -498,10 +573,12 @@ fieldset {
   
     .logo {
       position: absolute;
-      top: 06px;
+      top: 6px;
       right: 15px;
       font-size: 3rem;
     }
+
+    
   
     .navbar .menu-items li {
       margin-bottom: 2.5rem;

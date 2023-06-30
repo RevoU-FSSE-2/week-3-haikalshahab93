@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TUGAS 3 </title>
+    <title>Home Tugas 2 Muhammad Haikal Shahab</title>
     <link rel="stylesheet" href="./image/css/style.css" />
+     <link rel="stylesheet" href="./image/css/corousel.css" />
   </head>
 
   <body>
@@ -24,7 +25,15 @@
           <li><a href="#form-section">Form</a></li>
           <li><a href="#grid">Grid</a></li>
         </ul>
-        <h1 class="logo">HAIKAL</h1>
+       
+          <span id="dark-mode-switch">
+            <p>Dark Mode</p>
+            <label class="switch">
+              <input id="checkbox-dark-mode" onchange="toggleDarkMode()" type="checkbox">
+              <span class="slider round"></span>
+            </label>
+          </span>
+        
       </div>
     </nav>
 
@@ -32,13 +41,49 @@
       <section class="showcase-area" id="showcase">
         <div class="showcase-container">
           <h1 class="main-title" id="home">Liburan Ke Tajmahal</h1>
-          <p>Pengalaman Berlibur Ke Tajmahal India</p>
-          <a href="#india" class="btn btn-primary">India</a>
         </div>
       </section>
     </header>
 
     <main>
+
+      <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+          <li id="carousel__slide1"
+              tabindex="0"
+              class="carousel__slide">
+            <div class="carousel__snapper">
+              <a href="#carousel__slide4"
+                 class="carousel__prev">Go to last slide</a>
+              <a href="#carousel__slide2"
+                 class="carousel__next">Go to next slide</a>
+            </div>
+          </li>
+          <li id="carousel__slide2"
+              tabindex="0"
+              class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide1"
+               class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide3"
+               class="carousel__next">Go to next slide</a>
+          </li>
+        </ol>
+        <aside class="carousel__navigation">
+          <ol class="carousel__navigation-list">
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide1"
+                 class="carousel__navigation-button">Go to slide 1</a>
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide2"
+                 class="carousel__navigation-button">Go to slide 2</a>
+            </li>
+          </ol>
+        </aside>
+      </section>
+
+      
       <section id="tajmahal-photos">
         <h1>Tajmahal India Photos</h1>
         <div class="grid-container">
@@ -62,6 +107,8 @@
           </div>
         </div>
       </section>
+
+      
 
       <section id="about">
         <div class="about-wrapper container">
@@ -160,6 +207,7 @@
     <footer></footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./image/js/style.js"></script>
     <script>
       $(document).ready(function () {
         // Add smooth scrolling to all links

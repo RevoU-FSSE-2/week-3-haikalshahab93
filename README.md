@@ -6,18 +6,18 @@
 
 
 # Description :
-ini adalah tugas kedua responsive menggunakan html css dan js [Muhammad Haikal Shahab](https://haikalshahab1.netlify.app), membuat halaman responsive menggunakan html,css dan javascript di Revou.
+ini adalah tugas kedua responsive menggunakan html css dan js [Muhammad Haikal Shahab](https://haikalshahab2.netlify.app), membuat halaman responsive menggunakan html,css dan javascript di Revou.
 
-- building semantic (ok)
-- responsive Design Media Query (ok)
-- Create Form text,textarea,submit,button,radio button, checkbox,select (ok)
-- Create Sticky Nav Header (Ok)
-
+- applying custom font using @font face (ok)
+- applying text shadow to text (ok)
+- applying 1 responsif background image (using contain cover or suit cover)  (ok
+- applying 1 responsif image with picture + source + srcset (ok)
+- applying form element ( date,color,localdate,range ) (oK) 
 
 ## Advance
-- Hamburger Button (Ok)
-- Grid Standar (Ok)
-- Add Animation (OK)
+- Accessibility and Seo >=90 (Ok)
+- Create Day Mode , Night Mode or using  webstorage (Ok)
+- Create image Corousel without using Js (ok)
 
 
 <a href="https://www.instagram.com/haikal02502/">
@@ -30,7 +30,7 @@ ini adalah tugas kedua responsive menggunakan html css dan js [Muhammad Haikal S
 
 <br />
 
-hi, i'm [Muhammad Haikal Shahab](https://haikalshahab1.netlify.app), a passionate self-taught full stack web developer and a freelance software engineer from indonesia. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality of the things I build.
+hi, i'm [Muhammad Haikal Shahab](https://haikalshahab2.netlify.app), a passionate self-taught full stack web developer and a freelance software engineer from indonesia. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality of the things I build.
 
 
   <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
