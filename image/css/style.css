@@ -60,15 +60,6 @@ body {
   font-weight: small;
 }
 
-.btn-primary {
-  color: #fff;
-  background: #16a083;
-}
-
-.btn-primary:hover {
-  background: #117964;
-  transition: background 0.3s ease-in-out;
-}
 /* nav dark mode */
 nav > #dark-mode-switch {
   display: flex;
@@ -159,15 +150,15 @@ input:checked + .slider:before {
   width: 100%;
   background: #fff;
   color: #000;
-  opacity: 0.85;
+  opacity: 1;
   height: 50px;
-  z-index: 12;
+  z-index: 13;
 }
 
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  height: 64px;
+  height: 60px;
   align-items: center;
 }
 
@@ -187,7 +178,6 @@ input:checked + .slider:before {
   text-decoration: none;
   color: #444;
   font-weight: 500;
-  transition: color 0.3s ease-in-out;
 }
 
 .menu-items a:hover {
@@ -202,17 +192,11 @@ input:checked + .slider:before {
 }
 
 
-
-
 /* ............//// Showcase styling ////......... */
 
 .showcase-area {
-  height: 50vh;
-  background: linear-gradient(
-      rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)
-    ),
-    url("../img/tajmahal.jpeg");
+  height: 400px;
+  background:url("../img/tajmahal.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -220,7 +204,6 @@ input:checked + .slider:before {
 
 .showcase-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -229,11 +212,9 @@ input:checked + .slider:before {
 
 .main-title {
   text-transform: uppercase;
-  margin-top: 1.5em;
+  margin-top: 1em;
   text-shadow: 2px 2px #FF0000;
 }
-
-
 
 
 /* halaman section 2 */
@@ -431,6 +412,12 @@ fieldset {
       opacity: 0.95;
     }
   
+    nav > #dark-mode-switch {
+      display: flex;
+      margin-left: auto;
+      margin-right: 2px;
+    }
+    
     .navbar-container input[type="checkbox"],
     .navbar-container .hamburger-lines {
       display: block;
@@ -465,6 +452,7 @@ fieldset {
       flex-direction: column;
       justify-content: space-between;
     }
+    
   
     .navbar-container .hamburger-lines .line {
       display: block;
