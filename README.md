@@ -1,8 +1,17 @@
 <img src="image/img/web.png" width="100%" height="250">
 
 
-# Muhammad-Haikal-Shahab_Weekly_W2
+# Muhammad-Haikal-Shahab_Weekly_W3
 
+
+# Advance Tugas
+
+<img src="image/img/Capture.png" width="100%" height="250">
+## Halaman Web Grid LocalStorage dan Corousel Css
+
+
+<img src="image/img/Capture1.png" width="100%" height="250">
+## Accessibility and Seo >= 90
 
 
 # Description :
